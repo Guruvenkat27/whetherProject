@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./thunderstorm-3441687_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    height: 9vh;
+    display: flex;
+    background-image: linear-gradient(45deg,rgb(40, 5, 100),black,rgb(34, 5, 92));
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px gray;
+    padding: 0 15px;
+    backdrop-filter: blur(5px);
+}
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.city-name{
+    font-size: 40px;
+    
+    margin-left: 15%;
+    font-weight: 600;
+    color: white;
+    
+    
+}
+.start{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+
+    height: 10vh;
+}
+.time{
+    
+    position: relative;
+    left: -5%;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px gray;
+    backdrop-filter: blur(15px);
+    font-size: 20px;
+    border-radius: 5px;
+    
+    padding: 0 10px;
+    
+    
+  
+    gap: 4px;
+}
+input,button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.sear{
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px gray;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    backdrop-filter: blur(17px);
+    border-radius: 10px;
+}
+input{
+    width: 85%;
+padding-left: 8px;
+}
+
+button{
+    width: 15%;
+    color: white;
+    font-size: 13px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    cursor: pointer;
+    background-image: linear-gradient(45deg,rgb(56, 5, 113),black,rgb(68, 7, 122))
+}
+.whether{
+    box-shadow: 0 0 10px rgba(56, 3, 96, 0.76);
+    height: 40vh;
+    width: 30%;
+    border-radius: 20px;
+    
+    background-color: rgba(55, 3, 96, 0.363);
+backdrop-filter: blur(5px);
+    padding: 10px 10px;
+    padding-top: 15px;
+    
+}
+.img{
+    border: 2px solid transparent;
+    width: 30%;
+   margin-left: 40px;
+    height: 47%;
+    position: relative;
+    top: 10px;
+   
+    
+}
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    left: -8%;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.box-1{
+    display: flex;
+
+}
+.temp{
+
+   width: 62%;
+    display: flex;
+  
+    flex-direction: column;
+    justify-content: center;
+ align-items: center;
+ gap: 10px;
+ 
+}
+.temp .deg{
+    font-size: 39px;
+    font-weight: 600;
+
+
+}
+.to{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+
+
+}
+.sun{
+    font-size: 23px;
+   
+    width: 100%;
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+}
+.box-2{
+   
+    width: 100%;
+    height: 40%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    
+}
+.box-2 .b1{
+    border: 2px solid gray;
+    border: none;
+    width: 39%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 100%;
+}
+.b1 span{
+    font-size: 40px;
+}
+.h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+   
+    height: 100%;
+    width: 70%;
+    padding: 0 6px;
+}
+.h1 .pe{
+    font-size: 24px ;
+    font-weight: 600;
+}
+.h1 .h{
+    font-size: 20px;
+}
+.city-det{
+    box-shadow: 0 0 10px rgba(55, 3, 96, 0.363);
+    width: 20%;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    height: 30vh;
+    padding: 10px 10px;
+    background-color: rgba(55, 3, 96, 0.363);
+    padding-left: 30px;
+   
+}
+.div-1{
+    display: flex;
+    align-items: center;
+    
+    gap: 60px;
+    margin-top: 35px;
+    height: 50vh;
+    justify-content: center;
+}
+.head{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+.d{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 34px;
+}
+.max{
+    box-shadow: 0 0 10px rgba(55, 3, 96, 0.363);
+    height: 35vh;
+    width: 25%;
+    background-color: rgba(55, 3, 96, 0.363);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 10px;
+}
+.b2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.b2 .b3{
+    border: 2px solid transparent;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    width: 30%;
+}
+.mi{
+    font-weight: 600;
+    font-size: 28px;
+}
+.mi1{
+    font-size: 20px;
+}
+.second{
+    box-shadow: 0 0 10px gray;
+    height: 23vh;
+}
+.new{
+    border: 2px solid gray;
+    height: 100%;
+    width: 20%;
+}
